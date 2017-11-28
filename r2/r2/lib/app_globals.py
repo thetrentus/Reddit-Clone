@@ -478,11 +478,11 @@ class Globals(object):
         self.baseplate = Baseplate()
         self.baseplate.configure_logging()
         self.baseplate.register(R2BaseplateObserver())
-        self.baseplate.configure_tracing(
-            "r2",
-            tracing_endpoint=self.config.get("tracing_endpoint"),
-            sample_rate=self.config.get("tracing_sample_rate"),
-        )
+#        self.baseplate.configure_tracing(
+#            "r2",
+#            tracing_endpoint=self.config.get("tracing_endpoint"),
+#            sample_rate=self.config.get("tracing_sample_rate"),
+#        )
 
         self.paths = paths
 
