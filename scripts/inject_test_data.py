@@ -273,18 +273,11 @@ def inject_test_data(num_links=25, num_comments=25, num_votes=5):
     print ">>>> Fetching real data from reddit.com"
     modeler = Modeler()
     subreddits = [
-        modeler.model_subreddit("pics"),
-        modeler.model_subreddit("videos"),
-        modeler.model_subreddit("askhistorians"),
+        modeler.model_subreddit("worldnews"),
+        modeler.model_subreddit("scambaiting"),
+        modeler.model_subreddit("redditdev"),
     ]
-    extra_settings = {
-        "pics": {
-            "show_media": True,
-        },
-        "videos": {
-            "show_media": True,
-        },
-    }
+
 
     print
     print
@@ -355,6 +348,6 @@ def inject_test_data(num_links=25, num_comments=25, num_votes=5):
 
     amqp.worker.join()
 
-    srs = [Subreddit._by_name(n) for n in ("pics", "videos", "askhistorians")]
+    srs = [Subreddit._by_name(n) for n in ("worldnews")]
     LocalizedDefaultSubreddits.set_global_srs(srs)
-    LocalizedFeaturedSubreddits.set_global_srs([Subreddit._by_name('pics')])
+    LocalizedFeaturedSubreddits.set_global_srs([Subreddit._by_name('worldnews')])
