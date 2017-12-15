@@ -274,7 +274,7 @@ def inject_test_data(num_links=25, num_comments=25, num_votes=5):
     modeler = Modeler()
     subreddits = [
         modeler.model_subreddit("worldnews"),
-        modeler.model_subreddit("scambait"),
+        modeler.model_subreddit("Jokes"),
         modeler.model_subreddit("The_Donald"),
     ]
     extra_settings = {
