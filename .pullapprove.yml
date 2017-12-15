@@ -9,7 +9,7 @@ group_defaults:
 
 groups:
   code-admins:
-    required: 2
+    required: 1
     users:
       - thetrentus
       - thetrentus-review
