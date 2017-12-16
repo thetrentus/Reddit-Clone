@@ -275,7 +275,7 @@ def inject_test_data(num_links=25, num_comments=25, num_votes=5):
     subreddits = [
         modeler.model_subreddit("pics"),
         modeler.model_subreddit("worldnews"),
-        modeler.model_subreddit("the_donald"),
+        modeler.model_subreddit("gaming"),
     ]
     extra_settings = {
         "worldnews": {
