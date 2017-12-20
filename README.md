@@ -14,13 +14,13 @@ You can also chat with us via IRC in [#reddit-dev on freenode](http://webchat.fr
 
 ### Quickstart
 
-To set up your own instance of reddit to develop with, we have a handy [install script for Ubuntu](https://github.com/reddit/reddit/wiki/reddit-install-script-for-Ubuntu) that will automatically install and configure most of the stack.
+To set up your own instance of reddit to develop with, we have a handy [install script for Ubuntu](https://github.com/thetrentus/Reddit-Test/wiki/reddit-install-script-for-Ubuntu) that will automatically install and configure most of the stack.
 
-Alternatively, refer to our [Install Guide](https://github.com/reddit/reddit/wiki/Install-guide) for instructions on setting up reddit from scratch. Many frequently asked questions regarding local reddit installs are covered in our [FAQ](https://github.com/reddit/reddit/wiki/FAQ).
+Alternatively, refer to our [Install Guide](https://github.com/reddit/reddit/wiki/Install-guide) for instructions on setting up reddit from scratch. Many frequently asked questions regarding local reddit installs are covered in our [FAQ](https://github.com/thetrentus/Reddit-Test/wiki/FAQ).
 
 ### APIs
 
-To learn more about reddit's API, check out our [automated API documentation](http://www.reddit.com/dev/api) and the [API wiki page](https://github.com/reddit/reddit/wiki/API). Please use a unique User-Agent string and take care to abide by our [API rules](https://github.com/reddit/reddit/wiki/API#wiki-rules).
+To learn more about reddit's API, check out our [automated API documentation](http://www.reddit.com/dev/api) and the [API wiki page](https://github.com/thetrentus/Reddit-Test/wiki/API). Please use a unique User-Agent string and take care to abide by our [API rules](https://github.com/thetrentus/Reddit-Test/wiki/API#wiki-rules).
 
 Happy hacking!
 
